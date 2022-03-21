@@ -72,6 +72,13 @@ font-family: 'Ubuntu', sans-serif;
 	align-items: center;
 }
 
+@media(max-width: 768px){
+	.questions option{
+		width: 85%;
+	}
+}
+
+
 button{
 	padding: 5px 20px;
 	cursor: pointer;
